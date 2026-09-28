@@ -1,0 +1,200 @@
+*Disclaimer:- In any of the universe , or any of the day, by any how if you are aiming to get or generate " andha paisa" from Industry or Software or Ai( software hi toh hai) you have to love terminal more than your crush! because once an wise man said - "industry mein appko bas termianl hi milte honge".
+
+
+
+Rules:
+
+
+1. / is the outer most folder present in linux file folder structure
+2. auto complete --> terminal auto complete your file name using tab ( write some key then tab) --> if terminal find match after tab it show all match file name and leave your shell untouched with same command . 
+3. for better experience or to cover and prepare things fast--> write terminal command most of the time.
+4. generate more quizes and attempt with 'shiddat'. 
+5. look the curl in shell (open terminal and see pwd--> if /home/hanumanji (hanumanji is your user name)  then before $ automatically shows ~)
+     notes:-
+       ~ means you are at /home/username folder this is called ()
+       $ means
+       ( in hostinger server (vps) it's # not $ so don't get afraid of things look not okay)
+
+6. to know about any command use <command> --help ( help suffix)
+
+
+* If I get more cool stuff/tips will add here.
+
+
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________
+                                                                                        Linux Command
+                                                                                        ----------------
+                                                                                        ( basic file and folder ) 
+_______________________________________________________________________________________________________________________________________________________________________________________________________
+
+1. ls ( view all list in current folder)
+         folder in diff color
+         file in diff color
+   - suffix:-
+    a : hidden file/ folder + all ( hidden starts with '.')
+    
+    
+2. pwd (present working directory.)
+
+3. cd change directory
+   it helps us to go back and forth ( any way outside of the pwd ( present working directory).)
+  -  cd ../ ( go back)
+  - cd ../../../ (multiple step back)
+  # file structure in linux at most you can go '/' wwhich is home directory
+  # if you still do cd ../ you will be always there no error nothing as its  the outer most directory
+  * Q1> open terminal on wsl, vm 
+   -- write your pwd and root or the home folder
+   -- file existing there
+   -- paths or path name
+   -- user name  of both device 
+   -- file folder at /
+ - for forward move use--> 
+ - cd <path>
+    path:-
+     1.cd  ~ ( send you into user/ home directory)
+     2.cd / ( bring you at the starting of machine or  outer most folder. 
+     
+4. create
+  - mkdir <name>   directory or folder
+  - mkdir -p <relative path> folder inside folder inside folder. * relative path does not start with '/' .
+     note by this you can only create folder not file if you try with extension , folder name with extn will create.
+     
+  - touch create file (empty file )  
+  - also can create file inside folder 
+  - but if folder doesnot exist sorry its error. 
+5. vim text editor
+  -  vim is a text editor 
+  - through vim you can add content to your txt file
+  -  initially its only read only mode. 
+  - to write at first navigate--> insert mode-- to stop  and back into read escape--> change into quit mode to close
+    -vim <name>.txt    
+    -i
+    -esc
+    -:wq
+    :ql ( if you dont want to save anything.) 
+ - if the file does not exist , b=vim create it, you can find [* new written at below]
+ - to exit vim with out saving anything :ql
+6. copy 
+  -at diff location
+    -- folder exist 
+    -- folder does not exist--> error( can not create).
+    -- folder exist --> okay! 
+    -- - cp path1 path 2
+    
+      
+  - at diff file 
+       - cp file1 file2  file1 --> file2( must be on same directory
+       
+  - file exist--------------} copy only
+  - file does not exist-----] creates. 
+ 
+ 7. reading file 
+ 
+  - cat <name>.txt --> the content in the file get visible in terminal. best for short file.
+  - less <name>.txt--> open in vim editor . best for long file. as it gives hot keys to search, find or replace type work
+  - to close it simply write q. 
+  
+  
+  
+8. clean the terminal:-
+ 
+ - clear
+ - history to see only command list you typed ( can think as a presistent storage of commands stays even after deleting the terminal.
+ 
+ 9. short key:-
+ ./xx :- from current folder
+ ../xx:- from previous folder
+ cd by default--> tilde/home
+ 
+ 
+________________________________________________________________________________________________________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________
+                                                                                        Linux Command
+                                                                                        ----------------
+                                                                                        ( User manager ) 
+_______________________________________________________________________________________________________________________________________________________________________________________________________
+understanding/ concept
+__________________
+ root user is the ( hardcoded) user in sense having all control of machine , but its bad and risky to trust one person or to give them all access, that's why we need to create new user. 
+  
+  1. whoami --> to know current user
+  2. sudo adduser <username>
+    - sudo means execute this command with all previllage
+    - adduser - a command
+    - < user name > set any 
+     * the sudo for hanumanji( root) is far more independent and have more control than dummy
+     * by this approach we can add controlled user , and give them different control on different file / folder to work.
+     * eg . dummy cannot run any command of sudo, as it's the highest privillige one could have..
+     
+     * to give access Back to root 
+     sudo usermod -aG sudo <username>
+     
+        code breakdown
+        
+        sudo :- to run highest prev / control task (think like for any serious/ administration level task you need it and the worker as suffix)
+        usermod :- 
+        -aG:-
+        sudo
+        <Username>
+- logout --> exit.
+        
+        
+        
+     
+_______________________________________________________________________________________________________________________________________________________________________________________________________
+                                                                                        Linux Command
+                                                                                        ----------------
+                                                                                        ( Package manager ) 
+_______________________________________________________________________________________________________________________________________________________________________________________________________
+     
+     
+     
+     
+     
+     
+     
+    
+    
+    
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ sudo
+ apt 
+update 
+install 

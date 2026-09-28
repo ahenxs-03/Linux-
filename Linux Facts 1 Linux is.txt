@@ -1,0 +1,86 @@
+Linux 
+Facts:-
+1. Linux is not an operating system. 
+2. Linux is operating system kernel, helps to communicate with hardware. 
+3. wrapping up with a large collection of software ,  is enough to build a os--> this is linux distribution 
+
+4.  Ubantu is a linux distributer , arch is another kali is another
+5. Role of kernel:-
+   1> Gpu/cpu  timing - it decides which program to give how much time and priority
+   2> Memory management> Manage Ram and decides how much to available for diff programs.
+   3>storage management> Keeps track of how much storage is available on HDD SDD.
+6. Why everyone is mad at it?
+  1.  servers, database use linux distribution(kernel os). As it is open source and free of cost.
+  2. privacy
+  3. in Ai race every one need privacy on their product or model or data or prompts, linux gives them that privacy thats why its also crusial in AI infa structure.
+  4. Android os is build on top of linux kernel
+* Linux online server-->
+Now we are using linux on our virtual machine, it is using and "eating" storage, hdd, ssd , ram of our own physical computer or resource..
+Pros :- Independent machine feel . Exactly at zero cost.
+Cons :- Hardware , resource--> think of your 2 GB ram PC. its literally impossible even to load a virtual machine inside it.. 
+
+* V.P.S:- Virtual private Server. 
+soln:- you can purchase online Linux server ( many commercial sites provide ex. 'Hoistinger') ..
+they are cheap, secure , you don't even need physical resource, VPN(N stands for network) work like it..
+the actual machine is set up in cloud but its is only accessible via terminal open up in your browser through ssh key.
+what ever command you put it directly run on the terminal of actual machine sitting alone in cloud.
+Cons:- life here is terminal based..
+* Most enterprises actually use the server only on money in change , that's why its your responsibility that you get familiar with terminal and keyboard only stop using navigation and U.I. clicks in V.M. 
+* The reason here Linux distribution open up its hearts that its nothing but a collection of software and kernel that's why you can exactly control entire system only with terminal or kernel!
+
+* Virtualization :- a technique that helps to build computers in our own machine through a software.
+The home/ main computer is said the host computer. 
+
+
+
+Hope its enough intro for now! happy learning
+
+
+_____________________________________________PART 2__________________________________________________
+_____________________________________________________________________________________________________
+
+What is terminal:-
+A interface through which you can access entire computer through command.
+
+* As for warm up our primary goal is to get familiar with command , terminal so W.S.L. is still a good choice to get handy. As it mostly use same command like Linux system ( as subsystem ) . 
+
+* But bad idea for a long run. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
